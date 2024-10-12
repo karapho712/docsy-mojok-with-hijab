@@ -1,4 +1,4 @@
 ---
-title: Releases
+title: How-To
 weight: 20
 ---
