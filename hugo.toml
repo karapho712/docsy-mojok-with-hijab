@@ -1,6 +1,6 @@
 # baseURL = "https://example.docsy.dev/"
-# baseURL = "https://karapho712.github.io/"
-baseURL = "https://karapho712.github.io/muh-hijab-muallif"
+baseURL = "https://karapho712.github.io/"
+# baseURL = "https://karapho712.github.io/muh-hijab-muallif"
 title = "Muh Hijab Muallif"
 #relativeURLS = true
 #canonifyurls = true
@@ -234,9 +234,9 @@ min = "0.110.0"
 [[module.imports]]
 path = "github.com/google/docsy"
 disable = false
-#[[module.mounts]]
-#source = 'static'
-#target = 'static'
-#[[module.mounts]]
-#source = 'images'
-#target = 'static/images'
+# [[module.mounts]]
+# source = 'static'
+# target = 'static'
+# [[module.mounts]]
+# source = 'images'
+# target = 'static/images'
