@@ -36,9 +36,6 @@ kita tidak melakukan commit pada transaction tersebut
 > sessionDb.test.updateOne({ field1: "value1" }, { $set: { field2: "updated_value" } });
 >
 > Error akan muncul: MongoServerError[WriteConflict]: WriteConflict
+
+> ![alt](/images/shell-2-error-write-conflict.png)
 ```
-
-Here's an image (`featured-sunset-get.png`) that includes a byline and a caption.
-
-<!-- <img src="/assets/images/shell-2-error-write-conflict.png" alt="Error WriteConflict" style="width:600px;"> -->
-![alt](/images/shell-2-error-write-conflict.png)
