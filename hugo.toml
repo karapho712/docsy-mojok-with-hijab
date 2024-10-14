@@ -1,11 +1,14 @@
 # baseURL = "https://example.docsy.dev/"
-baseURL = "https://karapho712.github.io/docsy-mojok-with-hijab"
+baseURL = "https://karapho712.github.io/"
+#baseURL = "https://karapho712.github.io/docsy-mojok-with-hijab"
 title = "Muh Hijab Muallif"
+#relativeURLS = true
+#canonifyurls = true
 
 # Language settings
 contentDir = "content/en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
@@ -19,18 +22,18 @@ enableGitInfo = true
 
 # You can add your own taxonomies
 [taxonomies]
-tag = "tags"
 category = "categories"
+tag = "tags"
 
 [params.taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyCloud = ["tags", "categories"]
+taxonomyCloud = ["categories", "tags"]
 
 # If used, must have same length as taxonomyCloud
-taxonomyCloudTitle = ["Tag Cloud", "Categories"]
+taxonomyCloudTitle = ["Categories", "Tag Cloud"]
 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-taxonomyPageHeader = ["tags", "categories"]
+taxonomyPageHeader = ["categories","tags"]
 
 
 # Highlighting config
@@ -60,6 +63,15 @@ languageName = "English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
+title = "Goldydocs"
+description = "A Docsy example site"
+
+[languages.id]
+languageName = "Indonesia"
+contentDir= "content/id"
+# Weight used for sorting.
+weight = 2
+[languages.id.params]
 title = "Goldydocs"
 description = "A Docsy example site"
 
@@ -222,3 +234,9 @@ min = "0.110.0"
 [[module.imports]]
 path = "github.com/google/docsy"
 disable = false
+#[[module.mounts]]
+#source = 'static'
+#target = 'static'
+#[[module.mounts]]
+#source = 'images'
+#target = 'static/static/images'
