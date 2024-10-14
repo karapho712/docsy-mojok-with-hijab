@@ -36,6 +36,7 @@ TL:DR
 > 
 > An error will appear: MongoServerError[WriteConflict]: WriteConflict
 > 
-> ![alt](/images/shell-2-error-write-conflict.png)
 ```
+
+> ![alt](/images/shell-2-error-write-conflict.png)
 
