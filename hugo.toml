@@ -2,8 +2,8 @@
 baseURL = "https://karapho712.github.io/"
 #baseURL = "https://karapho712.github.io/docsy-mojok-with-hijab"
 title = "Muh Hijab Muallif"
-relativeURLS = true
-#canonifyurls = true
+#relativeURLS = true
+canonifyurls = true
 
 # Language settings
 contentDir = "content/en"
