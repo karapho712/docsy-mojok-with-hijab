@@ -39,4 +39,4 @@ kita tidak melakukan commit pada transaction tersebut
 
 ```
 
-> ![alt](./images/shell-2-error-write-conflict.png)
+> ![alt](images/shell-2-error-write-conflict.png)
