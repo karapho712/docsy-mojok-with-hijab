@@ -234,9 +234,9 @@ min = "0.110.0"
 [[module.imports]]
 path = "github.com/google/docsy"
 disable = false
-#[[module.mounts]]
-#source = 'static'
-#target = 'static'
-#[[module.mounts]]
-#source = 'images'
-#target = 'static/static/images'
+[[module.mounts]]
+source = 'static'
+target = 'static'
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
