@@ -38,4 +38,5 @@ kita tidak melakukan commit pada transaction tersebut
 > Error akan muncul: MongoServerError[WriteConflict]: WriteConflict
 
 ```
-<img alt="alt" src="/muh-hijab-muallif-docsyy/images/shell-2-error-write-conflict.png">
+
+> ![alt](/images/shell-2-error-write-conflict.png)
