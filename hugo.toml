@@ -1,6 +1,6 @@
 # baseURL = "https://example.docsy.dev/"
-baseURL = "/"
-# baseURL = "https://karapho712.github.io/muh-hijab-muallif-docsyy"
+# baseURL = "/"
+baseURL = "https://karapho712.github.io/muh-hijab-muallif-docsyy"
 title = "Muh Hijab Muallif"
 # relativeURLS = true
 # canonifyurls = true
