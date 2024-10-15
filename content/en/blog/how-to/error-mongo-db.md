@@ -38,5 +38,5 @@ TL:DR
 > 
 ```
 
-> ![alt](/muh-hijab-muallif-docsyy/images/shell-2-error-write-conflict.png)
+> ![alt](/images/shell-2-error-write-conflict.png)
 
