@@ -2,7 +2,7 @@
 baseURL = "/"
 # baseURL = "https://karapho712.github.io/muh-hijab-muallif-docsyy"
 title = "Muh Hijab Muallif"
-relativeURLS = true
+# relativeURLS = true
 # canonifyurls = true
 
 # Language settings
